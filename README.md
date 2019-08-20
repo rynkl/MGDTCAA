@@ -1,4 +1,4 @@
-# Molecular Generation for Desired Transcriptome Changes with Adversarial Autoencoders
+# Molecular Generation for Desired Transcriptome Changes with Adversarial Auto-encoders
 
 Recent advances in deep neural networks and the abundance of the experimental biological data enabled the development of systems for extracting new genomic, molecular and phenotypic features that could not be found using conventional methods. In this work, we build a conditional generative model that produces molecular descriptors based on the desired transcriptional response. However, experimental gene expression also captures cellular processes unrelated to the drug incubation, leading to overfitting of standard models. The proposed Bidirectional Adversarial Autoencoder explicitly separates these processes into related and unrelated, improving molecular descriptors generation. We validate our model on the LINCS L1000 dataset by generating fingerprints of compounds with the desired transcriptional response. We also demonstrate that our model implicitly learns a metric in the space of molecules and expressions, which can be useful downstream tasks of representation learning.
 
